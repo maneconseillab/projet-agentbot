@@ -1,0 +1,31 @@
+# Interface utilisateur web 
+streamlit                        # Interface interactive web
+
+# Intégrations LangChain avec différents fournisseurs de LLMs
+langchain_groq                  # LLaMA 3, Mixtral via Groq
+langchain_openai                # GPT-3.5, GPT-4, GPT-4o via OpenAI
+langchain_anthropic             # Modèles Claude (1, 2, 3)
+langchain_huggingface           # Hugging Face API
+#langchain_mistralai             # (Optionnel) API Mistral si besoin
+
+# Outils communautaires LangChain
+langchain_community             # Intégrations tierces (Chroma, etc.)
+tavily-python                   # Moteur de recherche intelligent (Tavily)
+
+# LangGraph pour agents intelligents
+langgraph                       # Framework d’agents réactifs
+langgraph-checkpoint            # Mémorisation des états d’agents LangGraph
+langgraph-prebuilt              # Création rapide d’agents ReAct avec LangGraph
+
+# PDF et NLP
+pypdf                           # Lecture de PDF
+sentence_transformers           # Embeddings sémantiques
+
+# Environnement et gestion
+python-dotenv                   # Variables d’environnement
+
+# Base vectorielle
+chromadb                        # Vector store pour RAG
+
+# Modèles de langage
+transformers                    # Modèles NLP Hugging Face
